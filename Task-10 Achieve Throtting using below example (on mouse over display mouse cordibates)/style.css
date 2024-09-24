@@ -1,0 +1,20 @@
+section {
+    border: 10px double lightblue;
+    margin-top: 05%;
+    margin-left: 29%;
+
+    /* margin: auto; */
+    width: 500px;
+  }
+  nav {
+    margin-top: 01%;
+  }
+  #coordinate-box {
+    width: 440px;
+    height: 200px;
+    border: 1px dashed grey;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

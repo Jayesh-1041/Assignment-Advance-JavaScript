@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+    <style>
+        .valid {
+            color: green;
+        }
+        .invalid {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Email Validation JavaScript</h2>
+    <input type="text" id="email" placeholder="Enter your email">
+    <i class="fa-regular fa-circle-check"></i>
+    <span id="message" ></span>
+
+    <script>
+        document.getElementById('email').addEventListener('input', function () {
+            const email = this.value;
+            const message = document.getElementById('message');
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+            if (emailPattern.test(email)) {
+                message.textContent = 'Valid email';
+                message.className = 'valid';
+            } else {
+                message.textContent = 'Invalid email';
+                message.className = 'invalid';
+            }
+        });
+    </script>
+</body>
+</html>

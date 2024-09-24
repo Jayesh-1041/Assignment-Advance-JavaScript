@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:antiquewhite;
+  }
+  .image-logo{
+    padding: 120px 0px 0px 200px;
+  }
+  .email-box{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: -250px 0px 0px 600px;
+    gap: 15px;
+  }
+  .email-box input{
+    height: 40px;
+    border-radius: 10px;
+  }
+  .email-box, .fa-envelope, .fa-circle-ckeck{
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,16 @@
+section {
+    padding: auto;
+    width: 700px;
+    height: 300px;
+    border: 2px double darkcyan;
+    margin-left: 25%;
+    margin-top: 06%;
+  }
+  input {
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+  #output {
+    margin-top: 20px;
+    font-size: 20px;
+  }
